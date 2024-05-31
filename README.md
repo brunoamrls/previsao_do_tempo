@@ -9,3 +9,14 @@ Essa aplicação permite que qualquer pessoa do mundo pesquise informações cli
 A aplicação também é responsiva, adaptando-se automaticamente a diferentes tamanhos de tela e dispositivos.
 
 Os dados meteorológicos são obtidos da API do OpenWeatherMap.
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/brunoamrls/previsao_do_tempo/assets/168935717/cffd4f67-7c1a-4d9f-8448-70a7e4b8c0ab" width="75%" style="margin-inline-start: 20px; margin-inline-end: 40px;" />
+  <img src="https://github.com/brunoamrls/previsao_do_tempo/assets/168935717/f2388f64-dc21-42d2-9c55-4e91054e60fb" width="20%" style="margin-inline-start: 40px; margin-inline-end: 20px;" />
+</div>
+
+
+
+
+
+
