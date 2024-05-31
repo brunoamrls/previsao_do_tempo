@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape"); /* URL externa com a fonte da imagem de background */
+    background-size: cover; /*DEFINE O TAMANHO DO PLANO DE FUNDO*/
+    height: 100vh; /* ALTURA */
+    width: 100vw; /* LARGURA */
+    display: flex; /* MOSTRA */
+    align-items: center; /* ALINHAR AO CENTRO (VERTICAL) */
+    justify-content: center; /* JUSTIFICAR / CENTRALIZAR (HORIZONTAL) */
+}
+
+
+.caixa-maior {
+    background-color: #000000; /* COR DA DIV */
+    opacity: 0.8; /* TRANSPARÊNCIA */
+    width: 95%; /* LARGURA */
+    max-width: 450px; /* LARGURA */
+    border-radius: 25px; /* REDONDA A BORDA */
+    padding: 20px; /* DISTANCIA OS ELEMENTOS DA BORDA DA CAIXA */
+}
+
+.lupa { /* DEFINIÇÃO DAS DIMENSÕES DO ELEMENTO */
+    height: 20px; /* ALTURA */
+    width: 20px; /* LARGURA */
+}
+
+button {
+    border: none; /* REMOVE A BORDA */
+    padding: 10px; /* PREENCHIMENTO INTERNO DE 10 PIXELS CRIANDO UM ESPAÇO ENTRE O TEXTO E A BORDA */
+    background-color: #7c7c7c2b; /* COR CINZA SEMITRANSPARENTE PARA O FUNDO DO BOTÃO */
+    cursor: pointer; /* ALTERA O CURSOR DO MOUSE AO PASSAR SOBRE O BOTÃO */
+    border-radius: 50%; /* CANTOS DO BOTÃO ARRENDADOS COM APARÊNCIA CIRCULAR */
+    float: right; /* POSICIONA O BOTÃO A DIREITA */
+}
+
+button:hover { /* INTERAÇÃO DO BOTÃO QUANDO O MOUSE ESTÁ SOBRE ELE */
+    background-color: #7c7c7c7c; /* CINZA COM TRANSPARÊNCIA MENOR */
+    
+
+}
+
+input {
+    border: none; /* REMOVE A BORDA */
+    outline: none; /* REMOVE O CONTORNO */
+    border-radius: 20px; /* CANTOS ARREDONDADOS COM APARÊNCIA MAIS SUAVE */
+    padding: 10px; /* PREENCHIMENTO INTERNO DE 10 PIXELS CRIANDO UM ESPAÇO ENTRE O TEXTO E A BORDA */
+    background-color: #7c7c7c2b; /* COR DE FUNDO DA CAIXA DE ENTRADA EM CINZA COM BAIXA TRANSPARÊNCIA */
+    color: #ffffff; /* COR BRANCA DO TEXTO DENTRO DA CAIXA DE ENTRADA */
+    width: calc(100% - 100px); /* LARGURA DA CAIXA DE ENTRADA COMO 100% DA LARGURA TOTAL MENOS 100 PIXELS */
+    font-size: 20px; /*DEFINE O TAMANHO DA FONTE DO TEXTO DENTRO DA CAIXA DE ENTRADA COMO 20 PIXELS */
+
+
+}
+
+.caixa-media { 
+    margin-top: 30px; /* MARGEM SUPERIOR DE 30 PIXELS */
+}
+
+.cidade {
+    color: #ffffff; /* COR DO TEXTO EM BRANCO */
+    font-size: 20px; /* TAMANHO DA FONTE DO TEXTO COMO 20 PIXELS */
+}
+
+.temp {
+    color: #ffffff; /* COR DO TEXTO EM BRANCO */
+    margin-top: 30px; /* MARGEM SUPERIOR DE 30 PIXELS */
+    font-size: 30px; /* TAMANHO DA FONTE DO TEXTO COMO 30 PIXELS */
+}
+
+.umidade {
+    color: #ffffff; /* COR DO TEXTO EM BRANCO */
+    margin-top: 30px; /* MARGEM SUPERIOR DE 30 PIXELS */
+}

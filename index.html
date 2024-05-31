@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!--AVISA QUE ESTAMOS USANDO A VERSÃO MAIS RECENTE DO HTML-->
+<html lang="pt-br"> <!-- Início do documento HTML configurado em PT-BR-->
+
+<head> <!--Seção de cabeçalho com a codificação de caracteres e título da página-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto: Bruno Amaral de Sousa</title> <!--Título da guia do navegador-->
+</head>
+
+<body> <!--Conteúdo visível da página-->
+    <div class="caixa-maior"> <!--Agrupa elementos que estão relacionados-->
+       
+        <input class="input-cidade" placeholder="Digite a cidade"> <!--Caixa para o usuário digitar o nome da cidade-->
+      
+        <button onclick="cliqueiNoBotao()"> <!--Após clique no botão chama essa função-->
+            <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg"> <!--Ícone de lupa-->
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em São Paulo</h2> <!--Título de segundo nível-->
+            <!--
+            'h' ou 'headline' é o mesmo que título
+
+            Há diferentes níveis na tag de título que
+            define sua importância. Por exemplo:
+            h1
+            h2
+            h3...até o h6
+            -->
+            <p class="temp"> 28°C</p> <!--Paragráfo cin a classe "temp" que exibe a temperatura atual-->
+            <!--
+            <p> = tag de parágrafo
+            -->
+
+            <img class="icone" src="https://openweathermap.org/img/wn/04n.png"> <!--Ícone do tempo atual-->
+
+            <p class="umidade">Umidade: 70%</p> <!--Paragráfo com a classe "umidade"-->
+
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script> <!--Importa um arquivo JavaScript para acrescentar interatividade à página-->
+
+</html>
