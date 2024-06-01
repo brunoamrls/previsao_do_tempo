@@ -10,6 +10,8 @@ A aplicação também é responsiva, adaptando-se automaticamente a diferentes t
 
 Os dados meteorológicos são obtidos da API do OpenWeatherMap.
 
+A ideia é conforme for possível, tornar a aplicação ainda mais funcional, adicionando mais informações ao longo do tempo.
+
 Confira a aplicação em funcionamento abaixo. E fique a vontade para compartilhar novas ideias: 
  https://previsaobrunoamrls.netlify.app/
 
